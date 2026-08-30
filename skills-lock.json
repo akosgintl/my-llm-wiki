@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "skills": {
+    "second-brain": {
+      "source": "NicholasSpisak/second-brain",
+      "sourceType": "github",
+      "skillPath": "skills/second-brain/SKILL.md",
+      "computedHash": "2c5f8e6b28cdeee209ac6a8b4623da9f8f9898b50c48460d13d32d4adf8c61e3"
+    },
+    "second-brain-ingest": {
+      "source": "NicholasSpisak/second-brain",
+      "sourceType": "github",
+      "skillPath": "skills/second-brain-ingest/SKILL.md",
+      "computedHash": "a4755c4ca413246d9fec5a32f983f70efdb08a8b8ec2300ed66a0ee1cf5d4a24"
+    },
+    "second-brain-lint": {
+      "source": "NicholasSpisak/second-brain",
+      "sourceType": "github",
+      "skillPath": "skills/second-brain-lint/SKILL.md",
+      "computedHash": "3a75cca84fab289b6dfcb830e8163dd7074d83a794a081faf67b857ec1b6acba"
+    },
+    "second-brain-query": {
+      "source": "NicholasSpisak/second-brain",
+      "sourceType": "github",
+      "skillPath": "skills/second-brain-query/SKILL.md",
+      "computedHash": "21bd84e63d76ead6495e88f03835af65b2efa7da05b197b40736cb46e9ed0385"
+    }
+  }
+}
