@@ -1,0 +1,29 @@
+# Normalize every text file to LF inside the repository. Working-copy
+# endings still follow each machine's core.autocrlf on checkout, so
+# Windows keeps CRLF locally while the history stays platform-neutral.
+* text=auto
+
+# Shell scripts must stay LF even on Windows checkouts — CRLF breaks bash.
+*.sh text eol=lf
+
+# Knowledge-base content
+*.md       text diff=markdown
+*.mdc      text
+*.json     text
+*.gitkeep  text
+
+# Clipped media and attachments: never convert endings or attempt a text diff.
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.webp  binary
+*.avif  binary
+*.ico   binary
+*.pdf   binary
+*.mp4   binary
+*.webm  binary
+*.mp3   binary
+*.m4a   binary
+*.woff  binary
+*.woff2 binary
